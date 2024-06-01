@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <script src="https://kit.fontawesome.com/14d3e50f88.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Criando</title>
+</head>
+<body>
+    <header class="topo-crud">
+        <div class="lado-esquerdo">
+            <div class="voltar">
+               <a href="pagina-inicial.html"><button type="button"><i class="fa-solid fa-backward"></i>| Voltar</button></a> 
+            </div>
+            <div>
+                <img src="" alt="">
+            </div>
+        </div>
+
+    
+        <div class="lado-direito">
+            <nav class="links-topo">
+                <a href="pagina-inicial.html">Inicio</a>
+                <a href="sobre-nos.html">Sobre Nós</a>
+                <button type="button" style="cursor: pointer;"><div class="circulo-user"></div>Usuario-Professor</button>
+            </nav>
+        </div>
+    </header>
+
+    <div class="borda-verde"></div>
+    <main class="meio-crud">
+        <section class="botoes-crud">
+            <div class="cadastrar-produto">
+                <a href="formulario-cadastro-manutencao.html"><button type="button"><i class="fa-solid fa-pencil"></i>| Cadastrar</button></a>
+            </div>
+
+        </section>
+        
+        <section class="tabela-registros">
+            <table class="tabela-crud">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Descrição da manutenção</th>
+                        <th>Ações</th>
+                </tr>
+               </thead>
+
+               <tbody>
+                    <tr>
+                        <td>Carlos Roberto</td>
+                        <td>Adiciou Computador.</td>
+                        <td class="acoes-crud">
+                            <a href="formulario-edicao-manutencao.html"  class="editar-produto"><button type="button"><i class="fa-solid fa-pencil"></i>| Editar</button></a>
+                            <a href="formulario-apagar-manutencao.html"  class="apagar-produto"><button type="button"><i class="fa-solid fa-trash"></i>| Apagar</button></a>
+                        </td>
+                     </tr>
+                     
+
+               </tbody>
+            </table>
+
+        </section>
+    </main>
+</body>
+</html>

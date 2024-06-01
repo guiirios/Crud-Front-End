@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #161e27;
+}
+
+.topo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 120px;
+}
+
+.lado-direito
+{
+    display: flex;
+}
+
+.links-topo {
+    display: flex;
+    gap: 23px;
+}
+
+.links-topo a {
+    gap: 23px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.links-topo a:hover {
+
+   color: #2ecc71;
+}
+
+
+.borda-verde {
+    background-color: #2ecc71;
+    height: 2px;
+}
+
+.meio {
+    margin-top: 40px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.meio-texto {
+    display: flex;
+    justify-content: center;
+}
+
+.meio-texto h1 {
+    color: #ffffff;
+    font-size: 35px;
+    
+}
+
+.texto-meio {
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+.conteudo-1 {
+    margin-bottom: 40px;
+}
+
+.selecao {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 32px;
+}
+
+
+.selecao .quadrado {
+    height: 450px;
+    width: 300px;
+    border-radius: 10px;
+    border: 4px solid #2ecc71;
+    background-color: #00ff6a00;
+}
+.selecao .quadrado:hover {
+    height: 450px;
+    width: 300px;
+    border-radius: 10px;
+    border: 4px solid white;
+    cursor: pointer;
+
+}
+
+.quadrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circulo {
+    border: 4px solid #2ecc71;
+    background-color: #00ff6a00;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+
+
+.email input {
+    height: 20px;
+    width: 25%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+
+

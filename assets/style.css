@@ -1,0 +1,504 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #161e27;
+}
+
+/*Mexendo no topo*/
+.topo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 120px;
+}
+
+.links-topo button {
+    border: 0;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100px;
+}
+
+
+/*Parte do lado direito onde tem os links*/
+.lado-direito
+{
+    display: flex;
+}
+
+/*Dando espaço entre os links*/
+.links-topo {
+    display: flex;
+    gap: 40px;
+}
+
+/*Caracteristicas dos links*/
+.links-topo a {
+   
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+
+
+.links-topo a:hover {
+
+   color: #2ecc71;
+}
+
+
+/*Linha verde que separa o topo do meio*/
+.borda-verde {
+    background-color: #2ecc71;
+    height: 2px;
+}
+
+
+
+/*Editando o meio*/
+.meio {
+    margin-top: 40px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*Texto que fica no meio */
+.meio-texto {
+    display: flex;
+    justify-content: center;
+}
+
+/*CAracteristicas do texto do meio*/
+.meio-texto h1 {
+    color: #ffffff;
+    font-size: 40px;
+    margin-bottom: 20px;
+    
+}
+
+/*Texto que fica no meio*/
+.texto-meio {
+    text-align: center;
+    font-size: 40px;
+  
+}
+
+
+/*Conteudo 1 prinicpal do site*/
+.conteudo-1 {
+    margin-bottom: 40px;
+}
+
+
+/*Onde o usuario escolhera entre as opcoes sugeridas*/
+.selecao {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 100px;
+}
+
+
+/*Quadrado de selecao */
+.selecao .quadrado {
+    height: 450px;
+    width: 300px;
+    border-radius: 10px;
+    border: 4px solid #2ecc71;
+    background-color: #00ff6a00;
+}
+
+.selecao .quadrado:hover {
+    width: 300px;
+    border-radius: 10px;
+   
+    cursor: pointer;
+
+}
+
+/*Deixando o conteudo dentro do quadrado flexivel*/
+.quadrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selecao a {
+    text-decoration: none;
+}
+/*Vou fazer o texto sessao ficar no meio junto com circulo*/
+.sessao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sessao .texto-circulo {
+    color: white;
+}
+
+/*Circulo dentro do quadrado*/
+.circulo {
+    border: 4px solid #2ecc71;
+    background-color: #000000c0;
+    height: 250px;
+    width: 250px;
+    border-radius: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.circulo:hover {
+    border: 4px solid white;
+    cursor: pointer;
+}
+
+.circulo i {
+    font-size: 90px;
+    color: #2ecc71;   
+}
+
+.circulo  p  {
+    margin-top: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.circulo i:hover {
+    font-size: 95px;
+    color: white;
+    
+}
+
+
+
+
+.email input {
+    height: 20px;
+    width: 25%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+/*PAGINA SOBRE NÓS*/
+.meio-sobre-nos {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.conteudo-sobre {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+
+.aluno-1 {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: 800px;
+    border-radius: 30px;
+    border: 3px solid #2ecc71;
+    margin-bottom: 50px;
+}
+
+.texto-aluno { 
+    position: relative;
+    left: 10px;
+}
+.lado-direito-aluno-1 img {
+    max-height: 200px;
+    border-radius: 25px;
+}
+
+.lado-esquerdo-aluno-1 {
+    display: flex;
+    align-items: center;
+
+}
+/*FINAL PAGINA SOBRE NOS*/
+
+
+/*PAGINA CRUD CSS*/
+.topo-crud {
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 120px;
+
+}
+
+.voltar button {
+    background-color: #2ecc71;
+    height: 45px;
+    width:  85px;
+    border-radius: 10px;
+    border: 0;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+.voltar button:hover {
+    color: black;
+}
+.voltar button > i {
+    color: rgb(255, 255, 255);
+    margin-right: 5px;
+}
+
+
+/*BOTOES DO CRUD */
+.cadastrar-produto button {
+    background-color: #2ecc71;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    height: 55px;
+    width: 180px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.cadastrar-produto button:hover {
+    background-color: #2d8953;
+
+}
+
+.cadastrar-produto button i {
+    margin-right: 5px;
+}
+
+
+.botoes-crud {
+    display: flex;
+    gap: 35px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.editar-produto button {
+    background-color: rgb(0, 68, 255);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    height: 45px;
+    width: 120px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.editar-produto button:hover {
+    background-color: rgb(24, 73, 210);
+}
+
+.apagar-produto button {
+    background-color: rgba(255, 0, 0, 0.619);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    height: 45px;
+    width: 120px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.apagar-produto button:hover {
+    background-color: rgba(232, 40, 40, 0.619);
+}
+
+.tabela-registros {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    margin-top: 55px;
+}
+
+
+.tabela-registros  table{
+    width: 80%;
+    border-collapse: collapse;
+ }
+
+.tabela-crud {
+    border: 1px solid white;
+    color: white;
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid rgb(255, 255, 255);
+    text-align: left; 
+
+}
+
+  th {
+    background-color: #2ecc71;
+    color: white;
+  }
+
+  /*FINAL CRUD*/
+
+
+
+
+
+  /*PAGINA FORMULARIO CRIANDO*/
+
+
+
+.texto-forms-principal {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+
+  .formulario-sessao {
+    display: flex;
+
+    justify-content: center;
+    margin-top: 50px;
+}
+
+  .nome-forms label {
+    font-size: 25px;
+    position: relative;
+    top: 10px;
+
+  }
+
+.nome-forms input{
+    border: 0;
+    border-radius: 20px;
+    width: 500px;
+    height: 30px;
+    padding: 10px;
+  }
+
+  .input-nome {
+    color: white;
+    text-align: center;
+  }
+
+
+ #input-descricao textarea { 
+    border: 0;
+    border-radius: 20px;
+    width: 500px;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 40px;
+  }
+
+  .botao-cadastro button {
+    background-color: #2ecc71;
+    width: 500px;
+    border: 0;
+    border-radius: 20px;
+    height: 70px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    
+  }
+
+  .botao-cadastro button:hover {
+    background-color: #2d8953;
+    width: 500px;
+    border: 0;
+    border-radius: 20px;
+    height: 70px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+
+  }
+    /*FECHA FORMULARIO CRIANDO*/
+
+
+    /*Formulario Apagar*/
+
+  .botao-apagar button {
+    background-color: rgba(255, 0, 0, 0.619);
+    width: 500px;
+    border: 0;
+    border-radius: 20px;
+    height: 70px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 20px;
+    
+  }
+
+
+  .botao-apagar button:hover {
+    background-color: rgba(232, 40, 40, 0.619);
+
+  }
+  
+  .botao-cancelar button {
+    background-color: rgba(154, 154, 154, 0.619);;
+    width: 500px;
+    border: 0;
+    border-radius: 20px;
+    height: 70px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    
+  }
+
+  .botao-cancelar button:hover {
+    background-color: rgba(139, 139, 139, 0.619);
+    
+  }
+
+/*FIM PAGINA APAGAR*/
+
+
+/*PAGINA EDITAR FORMULARIO*/
+
+.botao-editar button {
+    background-color: rgb(0, 68, 255);
+    width: 500px;
+    border: 0;
+    border-radius: 20px;
+    height: 70px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+
+  }
+
+
+  .botao-editar button:hover { 
+      background-color: rgb(24, 73, 210);
+
+  }
+  /*FIM PAGINA EDITAR*/
